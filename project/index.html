@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Movie DB</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap&subset=cyrillic-ext" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
     <header class="header">
         <div class="header__search">
             <form action="#">
-                <input type="text" placeholder="Поиск">
+                <input type="text" placeholder="Поиск" id="search">
             </form>
         </div>
         <div class="header__logo">
@@ -81,7 +82,28 @@
             <img src="img/content_3.png" alt="some picture">
         </div>
     </main>
-
+    <div class="modal">
+        <div class="modal__dialog">
+            <div class="modal__content">
+                <form name="form1">
+                    <h1 class="h1"></h1>
+                    <h1 class="h2"></h1>
+                    <h1 class="h3"></h1>
+                    <h1 class="h4"></h1>
+                    <h1 class="h5"></h1>
+                    <h1 class="h6"></h1>
+                    <h1 class="h7"></h1>
+                    <h1 class="h8"></h1>
+                    <h1 class="h9"></h1>
+                    <h1 class="h10"></h1>
+                    <h1 class="h11"></h1>
+                    <button class="btn_1">
+                        Close
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
     <script type="module" src="js/script.js"></script>
 </body>
 </html>
